@@ -9,7 +9,7 @@ This project involves the Term 2 Simulator which can be downloaded [here](https:
 
 [image1]: ./pics/traj_p1.png 
 
-[image4]: ./pics/debug_p2.png 
+
 
 [image6]: ./pics/final_result.png 
 [image7]: ./pics/final_result2.png 
@@ -52,7 +52,7 @@ While I test my code, the following results show up.
 
 ![alt text][image1]
 
-![alt text][image4]
+
 
 This problem happens at the 274th radar data, where the bearing is 3.190031e+00. Since the 'atan2()' returns values between $-\pi$ and $\pi$, but the given measurement bearing is greater than $\pi$. I add the following to the code to yield the bearing within a desired range.
 
